@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #232946;
+	font-family: Arial;
+}
+#jd{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	letter-spacing: 10px;
+	text-indent: 55px;
+	margin-top: 50px;
+}
+#author{
+	color: white;
+	margin-left: 55px;
+}
+#note{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+#note p{
+	color: #eebbc3;
+}
+#note div{
+	margin: 25px;
+	height: 275px;
+	width: 250px;
+	background-color: #A4E197;
+	box-sizing: border-box;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#note div h1{
+	margin-top: -3px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+#note div p{
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+
+}
+#note div span{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#input{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+input{
+	width: 500px;
+	height: 40px;
+	border-radius: 10px;
+	border: 5px solid #eebbc3;
+	margin: 10px; 
+}
+
+#submit{
+	margin: 10px;
+	background-color: #eebbc3;
+	border-radius: 20px;
+	height: 40px;
+	width: 90px;
+}
+#submit p{
+	color: #232946;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
